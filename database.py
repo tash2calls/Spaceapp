@@ -9,7 +9,7 @@ load_dotenv("C:/Users/Thabo/pyproj/multiapp/dt.env.txt")
 #DETA_KEY = os.getenv("DETA_KEY")
 
 
-deta = Deta(st.secretes["DETA_KEY"])
+deta = Deta(st.secrets["DETA_KEY"])
 
 
 
